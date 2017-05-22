@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 import Recipes from './recipes/Index'
-
+//App组件的内容，其中内部组件是Recipes
 export default function App() {
   return (
     <div>

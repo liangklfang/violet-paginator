@@ -1,3 +1,14 @@
+//(1)调用方式如下：
+//{
+  //   body: html,
+  //   preloadedState: store.getState()
+  // }
+//(2)其中body如下:
+//  const html = renderToString(
+  //   <Provider store={store}>
+  //     <App />
+  //   </Provider>
+  // )
 export default ({ body, preloadedState }) => {
   return `
     <!DOCTYPE html>

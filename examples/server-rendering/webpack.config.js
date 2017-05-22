@@ -3,6 +3,7 @@ var webpack = require('webpack')
 var BrowserSyncPlugin = require('browser-sync-webpack-plugin')
 
 module.exports = {
+  //客户端代码
   entry: './app/client.jsx',
   output: { path: __dirname + '/assets', filename: 'bundle.js' },
   devtool: "eval-source-map",

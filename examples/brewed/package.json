@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --progress --colors -w",
     "lint": "eslint ./app/** --ext=js,jsx",
     "test": "npm run lint",
-    "build-example": "webpack ./index.js"
+    "build": "webpack ./index.js"
   },
   "author": "",
   "license": "MIT",

@@ -11,7 +11,6 @@ import App from './App'
 
 const preloadedState = window.__PRELOADED_STATE__
 //这是服务器端发送过来的store的初始状态
-console.log(preloadedState)
 const reducer = combineReducers({
   recipes: createPaginator(config)
 })
